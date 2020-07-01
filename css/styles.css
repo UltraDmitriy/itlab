@@ -1,0 +1,264 @@
+.text-center {
+  margin: 0 auto;
+}
+
+#header {
+  background-image: url("../img/header-bg.png");
+  min-height: 600px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+#contacts-nav .nav-link {
+  color: white;
+  font-size: 20px;
+}
+
+#menu-centered {
+  background-image: url("../img/shapka(-).png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 85px;
+}
+
+#menu-centered .main-nav {
+  margin-left: 16px;
+}
+
+@media (max-width: 768px) {
+  #menu-centered .main-nav {
+    margin-left: 0px;
+  }
+}
+
+#calc-nav {
+  margin-right: 140px;
+  font-weight: bold;
+}
+
+@media (max-width: 1350px) {
+  #calc-nav {
+    margin-right: 120px
+  }
+}
+
+@media (max-width: 1120px) {
+  #calc-nav {
+    margin-right: 50px
+  }
+}
+
+@media (max-width: 950px) {
+  #calc-nav {
+    margin-right: 45px
+  }
+}
+
+@media (max-width: 768px) {
+  #menu-centered {
+    background: #FDD711;
+    min-height: 0;
+  }
+}
+
+#menu-centered .nav-link {
+  color: #24303A;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.cards-underheader {
+  margin-top: -25px;
+  margin-bottom: 30px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.features {
+  background-image: url(../img/fon.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 350px;
+  margin-bottom: 30px;
+}
+
+.features-descr {
+  margin-top: -10px;
+  margin-right: 5px;
+  padding: 10px;
+  background: #fc0;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+@media (max-width: 320px) {
+  .features-descr {
+    margin-top: 0px;
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+}
+
+.about-us {
+  margin-bottom: 30px;
+}
+
+.about-us-descr {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.work-stats {
+  background-image: url(../img/fon-schetchik.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 208px;
+  margin-bottom: 30px;
+}
+
+.work-stats p {
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 65px;
+}
+
+@media (max-width: 768px) {
+  .work-stats p {
+    margin-top: 5px;
+    margin-bottom: 12px;
+    font-size: 18px;
+  }
+}
+
+.clients-logos img {
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  filter: grayscale(100%);
+  filter: gray; /* IE 6-9 */
+
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -o-transition: all 1s;
+  transition: all 1s;
+}
+
+.clients-logos img:hover {
+  -webkit-filter: none;
+  -moz-filter: none;
+  -ms-filter: none;
+  -o-filter: none;
+  filter: none;
+  filter: none; /* IE 6-9 */
+}
+
+.map-clean {
+  color: #313437;
+  background-color: #fff;
+}
+
+.map-clean p {
+  color: #7d8285;
+}
+
+.map-clean h2 {
+  font-weight: bold;
+  margin-bottom: 40px;
+  padding-top: 40px;
+  color: inherit;
+}
+
+@media (max-width:767px) {
+  .map-clean h2 {
+    margin-bottom: 25px;
+    padding-top: 25px;
+    font-size: 24px;
+  }
+}
+
+.map-clean .intro {
+  font-size: 16px;
+  max-width: 500px;
+  margin-bottom: -65px;
+}
+
+.map-clean iframe {
+  background-color: #eee;
+}
+
+.footer-dark {
+  padding: 50px 0;
+  color: #f0f9ff;
+  background-color: #282d32;
+}
+
+.footer-links a {
+  color: #f0f9ff;
+  text-transform: uppercase;
+}
+
+.footer-dark h3 {
+  margin-top: 0;
+  margin-bottom: 12px;
+  font-weight: bold;
+  font-size: 16px;
+  color: #F1BB23;
+  text-transform: uppercase;
+}
+
+.footer-dark ul {
+  padding: 0;
+  list-style: none;
+  line-height: 1.6;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+.footer-dark ul a {
+  color: inherit;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.footer-dark ul a:hover {
+  opacity: 0.8;
+}
+
+.footer-dark .copyright {
+  text-align: center;
+  padding-top: 24px;
+  opacity: 0.3;
+  font-size: 13px;
+  margin-bottom: 0;
+}
+
+
+/* Стили для кнопки прокрутки */
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: #F1BB23;
+  color: #282d32;
+  cursor: pointer;
+  padding: 12px;
+  border-radius: 10px;
+  font-size: 18px;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
+
+
+
