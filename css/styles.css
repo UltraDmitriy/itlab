@@ -3,8 +3,8 @@
 }
 
 #header {
-  background-image: url("../img/header-bg.png");
-  min-height: 600px;
+  background-image: url("../img/shapka.png");
+  /*min-height: ;*/
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
