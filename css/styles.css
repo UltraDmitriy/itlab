@@ -17,7 +17,7 @@
 }
 
 #menu-centered {
-  background-image: url("../img/shapka(-).png");
+  background-image: url("../img/shapkamenu.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -259,6 +259,3 @@
 #myBtn:hover {
   background-color: #555;
 }
-
-
-
